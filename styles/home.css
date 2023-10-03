@@ -1,0 +1,87 @@
+.home{
+    background-image: url(./../img/background.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+}
+.conteudo-container{
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-left: 80px;
+}
+.texto-laranja{
+    color: var(--cor-primaria);
+}
+.conteudo-container .texto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 520px;
+}
+.conteudo-container h2{
+    width: 558px;
+    font-size: 4rem;
+    font-weight: 400;
+    font-style: italic;
+}
+.conteudo-container div{
+    display: flex;
+    justify-content: flex-start;
+    width: 900px;
+
+}
+
+.destaque-container{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.destaque{
+    position:relative ;
+}
+.info{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    background-color: var(--cor-sombra);
+    font-size: 0.8rem;
+    display: flex;
+    height: 36px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--cor-branca);
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 0px 0px 12px 12px;
+    transition: 1s;
+    opacity: 0;
+}
+.info-texto{
+    width: 140px;
+
+}
+
+.destaque:hover .info{
+    opacity: 1;
+}
+.add{
+    position: absolute;
+    top: -12;
+    right: -12px;
+    opacity: 0;
+}
+.destaque:hover .add{
+    opacity: 1;
+}
+.info-preço{
+    background-color: var(--cor-primaria);
+    padding: 4px 8px 4px 8px;
+    border-radius: 6px;
+}
