@@ -1,313 +1,385 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheeT" href="./styles/reset.css">
-    <link rel="stylesheeT" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/cardapio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@100;200;400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/cardapio.css">
     <link rel="stylesheet" href="./styles/serviços.css">
     <link rel="stylesheet" href="./styles/produtos.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@100;200;400;600;900&display=swap"
-        rel="stylesheet">
-    <title>Pizzaria2</title>
-</head>
+    <link rel="stylesheet" href="./styles/footer.css">
+    <script src="https://kit.fontawesome.com/324b71f187.js" crossorigin="anonymous"></script>
 
+    <title>tony pizzaria</title>
+
+</head>
 <body>
-    <header>
-        <div class="logo-container">
-            <img src="./img/logo svg.png" alt="logo tony pizzaria">
-            <p>Tony pizzaria</p>
+
+<header>
+    <div class="logo-container">
+        <img src="./img/logo.svg" alt="logo tony pizzaria">
+        <p>Tony Pizzaria</p>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#cardapio">Cardápio</a></li>
+
+            <li><a href="#servico">Serviços</a></li>
+
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="botao-container">
+        <div class="botao">
+            <img src="./img/usuario.svg" alt="icone usuario">
+            <p>LOGIN</p>
         </div>
-        <nav class="menu">
+    </div>
+</header>
+
+<main>
+    <section class="home" id="home">
+        <div class="conteudo-container">
+            <div class="texto">
+                <h2>Não é apenas uma <span class="texto-laranja">pizza</span>, é uma experiência
+                </h2>
+            </div>
+            <div>
+                <img src="./img/pizza.png" alt="pizza">
+            </div>
+        </div>
+        
+        <div class="destaque-container">
+            <div class="produto">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/pizza (1).png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        pizza toscana
+                    </div>
+                    <div class="info-preco">
+                        R$ 30,00
+                    </div>
+                </div>
+            </div>
+            <div class="produto">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/pizza (2).png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        pizza portuguesa
+                    </div>
+                    <div class="info-preco">
+                        R$ 30,00
+                    </div>
+                </div>
+            </div>
+            <div class="produto">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/pizza3.png" alt="">
+            <div class="info">
+                    <div class="info-texto">
+                        pizza de mangericão
+                    </div>
+                    <div class="info-preco">
+                        R$ 30,00
+                    </div>
+            </div>
+        </div>
+            <div class="produto">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/pizza5.png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        pizza de pernil
+                    </div>
+                    <div class="info-preco">
+                        R$ 30,00
+                    </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="cardapio" id="cardapio">
+    <div class="cardapio-titulo">
+        <img src="./img/logo.svg" alt="logo tony pizzaria">
+        <h3>CARDÁPIO</h3>
+    </div>
+    <div class="cardapio-favoritas linha">
+        <div class="header-area">
+            <p>Minhas pizzas favoritas</p>
+            <p>VER TUDO</p>
+        </div>
+        <div class="produtos-container">
+            <div class="produto">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/pizza5.png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        pizza portuguesa
+                    </div>
+                    <div class="info-preco">
+                        R$ 30,00
+                    </div>
+                </div>
+            </div>
+            <div class="produto">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/pizza7.png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        pizza portuguesa
+                    </div>
+                    <div class="info-preco">
+                        R$ 30,00
+                    </div>
+                </div>
+            </div>
+            <div class="produto">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/pizza6.png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        pizza portuguesa
+                    </div>
+                    <div class="info-preco">
+                        R$ 30,00
+                    </div>
+                </div>
+            </div>
+            <div class="produto">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/pizza (1).png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        pizza portuguesa
+                    </div>
+                    <div class="info-preco">
+                        R$ 30,00
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cardapio-menu linha">
+        <div class="header-area">
+            <p>Menu</p>
+            <p>VER TUDO</p>
+        </div>
+        <div class="produtos-container">
+            <div class="produto">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/pizza (1).png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        pizza portuguesa
+                    </div>
+                    <div class="info-preco">
+                        R$ 30,00
+                    </div>
+                </div>
+            </div>
+            <div class="produto">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/pizza (2).png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        pizza portuguesa
+                    </div>
+                    <div class="info-preco">
+                        R$ 30,00
+                    </div>
+                </div>
+            </div>
+            <div class="produto">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/pizza3.png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        pizza portuguesa
+                    </div>
+                    <div class="info-preco">
+                        R$ 30,00
+                    </div>
+                </div>
+            </div>
+            <div class="produto">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/pizza5.png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        pizza portuguesa
+                    </div>
+                    <div class="info-preco">
+                        R$ 30,00
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cardapio-bebidas">
+        <div class="header-area">
+            <p>bebidas</p>
+            <p>VER TUDO</p>
+        </div>
+        <div class="produtos-container">
+            <div class="bebidas">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/COCA-COLA.png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        coca-cola
+                    </div>
+                    <div class="info-preco">
+                        R$ 16,00
+                    </div>
+                </div>
+            </div>
+            <div class="bebidas">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/fanta-l.png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        fanta-laranja
+                    </div>
+                    <div class="info-preco">
+                        R$ 15,00
+                    </div>
+                </div>
+            </div>
+            <div class="bebidas">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/guarana.png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        guaraná-antarctica
+                    </div>
+                    <div class="info-preco">
+                        R$ 15,00
+                    </div>
+                </div>
+            </div>
+            <div class="bebidas">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/refri-it.png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        it-ice
+                    </div>
+                    <div class="info-preco">
+                        R$ 12,00
+                    </div>
+                </div>
+            </div>
+            <div class="bebidas">
+                <img class="add" src="./img/add.svg" alt="">
+                <img src="./img/fanta-u.png" alt="">
+                <div class="info">
+                    <div class="info-texto">
+                        fanta-uva
+                    </div>
+                    <div class="info-preco">
+                        R$ 15,00
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="servicos" id="servico">
+        <div class="servicos-titulo">
+            <img src="./img/logo.svg" alt="logo pizzaria">
+            <h3>SERVIÇOS</h3>
+        </div>
+        <div class="servicos-conteudo">
+            <div class="fast-food servico">
+                <img src="./img/fast-food.png" alt="servico-icon">
+                <h4 class="servico-titulo">Fast food</h4>
+                <p class="servico-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla est ut explicabo ad harum a blanditiis, eligendi inventore numquam! Rem velit soluta vero laboriosam deserunt ratione temporibus dolorum ipsum non!</p>
+            </div>
+            <div class="drive-thru servico">
+                <img src="./img/drive.png" alt="servico-icon">
+                <h4 class="servico-titulo">Drive-thru</h4>
+                <p class="servico-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla est ut explicabo ad harum a blanditiis, eligendi inventore numquam! Rem velit soluta vero laboriosam deserunt ratione temporibus dolorum ipsum non!</p>
+            </div>
+            <div class="deliveries servico">
+                <img src="./img/deliveries.png" alt="servico-icon">
+                <h4 class="servico-titulo">Deliveries</h4>
+                <p class="servico-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla est ut explicabo ad harum a blanditiis, eligendi inventore numquam! Rem velit soluta vero laboriosam deserunt ratione temporibus dolorum ipsum non!</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="contatos-container" id="contato">
+        <div class="contato-logo">
+            <img src="./img/contato-logo.svg" alt="logo tony pizza">
+            <p>Tony Pizzaria</p>
+        </div>
+        <div class="contato-links">
+            <p class="titulo">LINKS</p>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cardapio">Cardapio</a></li>
+                <li><a href="#servico">Serviços</a></li>
+                <li><a href="#contato">Contatos</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+        <div class="contatos">
+            <p class="titulo">CONTATOS</p>
+            <ul>
+            <li>
+                <i class="fas fa-phone-alt"></i>
+                <p>(11) 4774-4700</p>
+            </li>
+            <li>
+                <i class="fas fa-envelope"></i>
+                <p>Tonypizzaria@gmail.com</p>
+            </li>
+            <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Rua dos salgados, 211 centro, Jandira</p>
+            </li>
+            </ul>
+        </div>
+        <div class="contato-sociais">
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href="#">Cardápio</a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href="#">Serviços</a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i></i>
+                    </a>
                 </li>
                 <li>
-                    <a href="#">Contato</a>
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
                 </li>
             </ul>
-        </nav>
-        <div class="botao-container">
-            <div class="botao">
-                <img src="./img/usuario.png" alt="botão usuario">
-                <p>LOGIN</p>
-            </div>
         </div>
-    </header>
-    <main>
-        <section class="home">
-            <div class="conteudo-container">
-                <div class="texto">
-                    <h2>Não é apenas uma<span class="texto-laranja"> Pizza</span> , é uma experiência!</h2>
-                </div>
-                <div>
-                    <img src="./img/pizza principal.png" alt="pizza peperomi">
-                </div>
-            </div>
-            <div class="destaque-container">
-                <div class="produto">
-                    <img class="add" src="./img/add.png" alt="">
-                    <img src="./img/pizza 1.png" alt="">
-                    <div class="info">
-                        <div class="info-texto">
-                            Pizza de calabresa com quijo
-                        </div>
-                        <div class="info-preço">
-                            R$ 16,90
-                        </div>
-                    </div>
-                </div>
-                <div class="produto">
-                    <img class="add" src="./img/add.png" alt="">
-                    <img src="./img/pizza 2.png" alt="">
-                    <div class="info">
-                        <div class="info-texto">
-                            Pizza de peperoni
-                        </div>
-                        <div class="info-preço">
-                            R$ 18,90
-                        </div>
-                    </div>
-                </div>
-                <div class="produto">
-                    <img class="add" src="./img/add.png" alt="">
-                    <img src="./img/pizza 3.png" alt="">
-                    <div class="info">
-                        <div class="info-texto">
-                            Pizza de bahiana
-                        </div>
-                        <div class="info-preço">
-                            R$ 21,90
-                        </div>
-                    </div>
-                </div>
-                <div class="produto">
-                    <img class="add" src="./img/add.png" alt="">
-                    <img src="./img/pizza 4.png" alt="">
-                    <div class="info">
-                        <div class="info-texto">
-                            Pizza portuguesa
-                        </div>
-                        <div class="info-preço">
-                            R$ 19,90
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="cardapio">
-            <div class="cardapio-titulo">
-                <img src="./img/logo svg.png" alt="logo tony pizzaria">
-                <h3>CARDÁPIO</h3>
-            </div>
-            <div class="cardapio-favoritas linha" >
-                <div class="header-area">
-                    <p>Minhas pizzas favoritas</p>
-                    <p>VER TUDO</p>
-                </div>
-                <div class="produtos-container">
-                    <div class="produto">
-                        <img class="add" src="./img/add.png" alt="">
-                        <img src="./img/pizza 3.png" alt="">
-                        <div class="info">
-                            <div class="info-texto">
-                                pizza portuguesa
-                            </div>
-                            <div class="info-preco">
-                                R$ 30,00
-                            </div>
-                        </div>
-                    </div>
-                    <div class="produto">
-                        <img class="add" src="./img/add.png" alt="">
-                        <img src="./img/pizza 4.png" alt="">
-                        <div class="info">
-                            <div class="info-texto">
-                                pizza portuguesa
-                            </div>
-                            <div class="info-preco">
-                                R$ 30,00
-                            </div>
-                        </div>
-                    </div>
-                    <div class="produto">
-                        <img class="add" src="./img/add.png" alt="">
-                        <img src="./img/pizza 2.png" alt="">
-                        <div class="info">
-                            <div class="info-texto">
-                                pizza portuguesa
-                            </div>
-                            <div class="info-preco">
-                                R$ 30,00
-                            </div>
-                        </div>
-                    </div>
-                    <div class="produto">
-                        <img class="add" src="./img/add.png" alt="">
-                        <img src="./img/pizza 1.png" alt="">
-                        <div class="info">
-                            <div class="info-texto">
-                                pizza portuguesa
-                            </div>
-                            <div class="info-preco">
-                                R$ 30,00
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cardapio-menu linha">
-                <div class="header-area">
-                    <p>Minhas pizzas favoritas</p>
-                    <p>VER TUDO</p>
-                </div>
-                <div class="produtos-container">
-                    <div class="produto">
-                        <img class="add" src="./img/add.png" alt="">
-                        <img src="./img/pizza 3.png" alt="">
-                        <div class="info">
-                            <div class="info-texto">
-                                pizza portuguesa
-                            </div>
-                            <div class="info-preco">
-                                R$ 30,00
-                            </div>
-                        </div>
-                    </div>
-                    <div class="produto">
-                        <img class="add" src="./img/add.png" alt="">
-                        <img src="./img/pizza 1.png" alt="">
-                        <div class="info">
-                            <div class="info-texto">
-                                pizza portuguesa
-                            </div>
-                            <div class="info-preco">
-                                R$ 30,00
-                            </div>
-                        </div>
-                    </div>
-                    <div class="produto">
-                        <img class="add" src="./img/add.png" alt="">
-                        <img src="./img/pizza 4.png" alt="">
-                        <div class="info">
-                            <div class="info-texto">
-                                pizza portuguesa
-                            </div>
-                            <div class="info-preco">
-                                R$ 30,00
-                            </div>
-                        </div>
-                    </div>
-                    <div class="produto">
-                        <img class="add" src="./img/add.png" alt="">
-                        <img src="./img/pizza 2.png" alt="">
-                        <div class="info">
-                            <div class="info-texto">
-                                pizza portuguesa
-                            </div>
-                            <div class="info-preco">
-                                R$ 30,00
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cardapio-bebidas">
-                <div class="header-area">
-                    <p>bebidas</p>
-                    <p>VER TUDO</p>
-                </div>
-                <div class="produtos-container">
-                    <div class="bebida">
-                        <img class="add" src="./img/add.png" alt="">
-                        <img src="./img/coca cola.png" alt="">
-                        <div class="info">
-                            <div class="info-texto">
-                                coca-cola
-                            </div>
-                            <div class="info-preco">
-                                R$ 16,00
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bebida">
-                        <img class="add" src="./img/add.png" alt="">
-                        <img src="./img/coca cola.png" alt="">
-                        <div class="info">
-                            <div class="info-texto">
-                                coca-cola
-                            </div>
-                            <div class="info-preco">
-                                R$ 16,00
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bebida">
-                        <img class="add" src="./img/add.png" alt="">
-                        <img src="./img/coca cola.png" alt="">
-                        <div class="info">
-                        </div>
-                        <div class="info-texto">
-                            coca-cola
-                        </div>
-                        <div class="info-preco">
-                            R$ 16,00
-                        </div>
-                    </div>
-                    <div class="bebida">
-                        <img class="add" src="./img/add.png" alt="">
-                        <img src="./img/coca cola.png" alt="">
-                        <div class="info">
-                            <div class="info-texto">
-                                coca-cola
-                            </div>
-                            <div class="info-preco">
-                                R$ 16,00
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bebida">
-                        <img class="add" src="./img/add.png" alt="">
-                        <img src="./img/coca cola.png" alt="">
-                        <div class="info">
-                            <div class="info-texto">
-                                coca-cola
-                            </div>
-                            <div class="info-preco">
-                                R$ 16,00
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bebida">
-                        <img class="add" src="./img/add.png" alt="">
-                        <img src="./img/coca cola.png" alt="">
-                        <div class="info">
-                        </div>
-                        <div class="info-texto">
-                            coca-cola
-                        </div>
-                        <div class="info-preco">
-                            R$ 16,00
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-    </main>
-
-    <footer></footer>
+    </div>
+    <div class="autor-container">
+        <p>© 2022 Tony Pizzaria | Todos os Direitos Reservados | Desenvolvido por izaias santos</p> 
+    </div>
+</footer>
 </body>
-
 </html>

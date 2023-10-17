@@ -1,27 +1,22 @@
 .cardapio{
-    background-color: var(--cor-branca);
+    background-color: var(--cor-branco);
     display: flex;
     flex-direction: column;
-    padding: 32px 80px;
+    padding: 32px 80px ;
 }
+
 .cardapio-titulo{
-    background-color: aqua;
     height: 65px;
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap:24px;
 }
 .cardapio-titulo h3{
     font-size: 2.5rem;
     font-weight: 600;
-    color: var(--cor-branca);
+    color: var(--cor-primaria);
 }
-.cardapio-favoritas{
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    padding-bottom: 30px;
-}
+
 .header-area{
     display: flex;
     justify-content: space-between;
@@ -31,31 +26,45 @@
     font-weight: 400;
     color: var(--cor-primaria);
 }
+
 .produtos-container{
     display: flex;
     justify-content: space-between;
 }
+.cardapio-favoritas{
+    gap:12px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    
+}
+
 .cardapio-menu{
     display: flex;
     flex-direction: column;
     gap: 12px;
     padding-bottom: 30px;
+
 }
+
 .cardapio-bebidas{
     display: flex;
     flex-direction: column;
     gap: 12px;
     justify-content: center;
 }
-.cardapio-bebidas .bebida{
+
+.cardapio-bebidas .bebidas{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 170px;
+    transition: 0.5s;
     padding: 8px;
 }
+
 .cardapio-bebidas .add{
     position: absolute;
     top: -20px;
@@ -63,21 +72,29 @@
     opacity: 0;
     transition: .5s;
 }
-.cardapio-bebidas .bebida:hover{
-    box-shadow: 2px 2px 4px var(--cor-sombra);
+
+.cardapio-bebidas .bebidas:hover{
+    box-shadow: 2px 2px 4px var(---cor-sombra);
     border-radius: 4px;
 }
-.cardapio-bebidas .bebida:hover .add{
+.cardapio-bebidas .bebidas:hover .add{
     opacity: 1;
 }
+
 .cardapio-bebidas .info{
+    align-items: center;
     display: flex;
     flex-direction: column-reverse;
 }
+
 .cardapio-bebidas .info-preco{
     color: var(--cor-primaria);
-    font-size: 600;
+    font-weight: 600;
 }
 .cardapio-bebidas .info-texto{
     font-size: .8rem;
+}
+
+.linha{
+    border-bottom:1px solid var(--cor-primaria);
 }
